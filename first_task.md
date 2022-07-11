@@ -12,7 +12,7 @@ UIScrollView、UITableView、UICollectionView、UIWebView、WKWebView。
 
 - 选中某⾏cell：
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 
 - ⾃定义每组头部的view 需要使⽤到UITableViewHeaderFooterView：
 
