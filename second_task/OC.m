@@ -1,12 +1,12 @@
 #import <Foundation/Foundation.h>
 
 @interface Student : NSObject{
-    NSString * name;  //����
-    NSString * major;  //רҵ
-    int age;  //����
+    NSString * name;  //姓名
+    NSString * major;  //专业
+    int age;  //年龄
 }
 
--(void)study:(NSString *) time;  //ѧϰ����
+-(void)study:(NSString *) time;  //学习方法
 
 @end
 
@@ -14,7 +14,7 @@
 @implementation Student
 
 -(void)study:(NSString *) time{
-	NSLog(@"ѧ��ѧϰ��%@��Сʱ",time);
+	NSLog(@"学生学习了%@个小时",time);
 }
 
 @end
